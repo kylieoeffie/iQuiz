@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A85766C52F45318400EF9209 /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = iQuiz.app; path = "/Users/kylieuffie/Documents/School/INFO449/iQuiz/build/Debug-iphoneos/iQuiz.app"; sourceTree = "<absolute>"; };
-		A85766DB2F45318500EF9209 /* iQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = iQuizTests.xctest; path = "/Users/kylieuffie/Documents/School/INFO449/iQuiz/build/Debug-iphoneos/iQuiz.app/PlugIns/iQuizTests.xctest"; sourceTree = "<absolute>"; };
-		A85766E52F45318500EF9209 /* iQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = iQuizUITests.xctest; path = "/Users/kylieuffie/Documents/School/INFO449/iQuiz/build/Debug-iphoneos/iQuizUITests-Runner.app/PlugIns/iQuizUITests.xctest"; sourceTree = "<absolute>"; };
+		A8662B6D2F481B97008A4909 /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8662B6E2F481B97008A4909 /* iQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8662B6F2F481B97008A4909 /* iQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -79,6 +79,9 @@
 			isa = PBXGroup;
 			children = (
 				A85766C72F45318400EF9209 /* iQuiz */,
+				A8662B6D2F481B97008A4909 /* iQuiz.app */,
+				A8662B6E2F481B97008A4909 /* iQuizTests.xctest */,
+				A8662B6F2F481B97008A4909 /* iQuizUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +107,7 @@
 			packageProductDependencies = (
 			);
 			productName = iQuiz;
-			productReference = A85766C52F45318400EF9209 /* iQuiz.app */;
+			productReference = A8662B6D2F481B97008A4909 /* iQuiz.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A85766DA2F45318500EF9209 /* iQuizTests */ = {
@@ -124,7 +127,7 @@
 			packageProductDependencies = (
 			);
 			productName = iQuizTests;
-			productReference = A85766DB2F45318500EF9209 /* iQuizTests.xctest */;
+			productReference = A8662B6E2F481B97008A4909 /* iQuizTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		A85766E42F45318500EF9209 /* iQuizUITests */ = {
@@ -144,7 +147,7 @@
 			packageProductDependencies = (
 			);
 			productName = iQuizUITests;
-			productReference = A85766E52F45318500EF9209 /* iQuizUITests.xctest */;
+			productReference = A8662B6F2F481B97008A4909 /* iQuizUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
