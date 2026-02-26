@@ -72,7 +72,9 @@ class ViewController: UITableViewController {
     }
     
     @objc func settingsTapped() {
-        performSegue(withIdentifier: "toSettings", sender: nil)
+        if let url = URL(string: UIApplication.openSettingsURLString) {
+            UIApplication.shared.open(url)
+        }
     }
     
     

@@ -22,13 +22,13 @@ struct Quiz {
 
 import Foundation
 
-struct QuizDTO: Decodable {
+struct QuizDTO: Codable {
     let title: String
     let desc: String
     let questions: [QuestionDTO]
 }
 
-struct QuestionDTO: Decodable {
+struct QuestionDTO: Codable {
     let text: String
     let answer: String
     let answers: [String]
